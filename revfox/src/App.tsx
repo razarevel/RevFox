@@ -1,7 +1,10 @@
-export default function App() {
+import Counts from "./Components/Counts";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <>
+      <Counts />
+    </>
+  );
 }
+export default App;
