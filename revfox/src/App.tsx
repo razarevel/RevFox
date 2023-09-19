@@ -3,7 +3,8 @@ import Counts from "./Components/Counts";
 function App() {
   return (
     <>
-      <Counts />
+    <Counts />
+    
     </>
   );
 }
