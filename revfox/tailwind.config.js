@@ -2,12 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
-        sans: ["Montserrat", "sans-serif"],
-        Roboto: ["Roboto", "sans-serif"],
+        sans: ["Roboto", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
+    
   },
   plugins: [],
 };

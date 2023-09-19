@@ -1,10 +1,9 @@
-import Counts from "./Components/Counts";
+import OfferSection from "./Components/offerSection";
 
 function App() {
   return (
     <>
-    <Counts />
-    
+    <OfferSection />    
     </>
   );
 }
